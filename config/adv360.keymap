@@ -33,15 +33,6 @@
     };
   };
 
-    combos {
-        compatible = "zmk,combos";
-        combo_alt_backspace {
-            timeout-ms = <30000>;
-            key-positions = <38 65 71>;
-            bindings = <&macro_alt_bckspce>;
-            slow-release = <true>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -73,7 +64,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &macro_alt_bckspce            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
             >;
         };
 
