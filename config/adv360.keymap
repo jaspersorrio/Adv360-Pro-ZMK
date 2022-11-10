@@ -50,7 +50,7 @@
         combo_test_2 {
             timeout-ms = <300>;
             key-positions = <15 16>;
-            bindings = <&kp E, &kp R>;
+            bindings = <&kp E &kp R>;
         };
 
     };
