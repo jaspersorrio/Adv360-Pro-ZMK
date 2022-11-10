@@ -40,6 +40,12 @@
             key-positions = <38 65 71>;
             bindings = <&kp LALT &kp BSPC>;
         };
+
+        combo_test {
+            timeout-ms = <300>;
+            key-positions = <17 18>;
+            bindings = <&kp Q &kp W>;
+        };
     };
 
     keymap {
