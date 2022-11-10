@@ -38,23 +38,10 @@
         combo_alt_backspace {
             timeout-ms = <300>;
             key-positions = <38 65 71>;
-            bindings = <&kp LALT>, <&kp BSPC>;
+            bindings = <&macro_alt_bckspce>;
         };
-
-        combo_test {
-            timeout-ms = <300>;
-            key-positions = <17 18>;
-            bindings = <&kp Q>, <&kp W>;
-        };
-
-        combo_test_2 {
-            timeout-ms = <300>;
-            key-positions = <15 16>;
-            bindings = <&kp E &kp R>;
-        };
-
     };
-
+    
     keymap {
         compatible = "zmk,keymap";
 
