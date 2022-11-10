@@ -36,12 +36,12 @@
     combos {
         compatible = "zmk,combos";
         combo_alt_backspace {
-            timeout-ms = <300>;
+            timeout-ms = <0>;
             key-positions = <38 65 71>;
             bindings = <&macro_alt_bckspce>;
         };
     };
-    
+
     keymap {
         compatible = "zmk,keymap";
 
