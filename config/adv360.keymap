@@ -39,6 +39,7 @@
             timeout-ms = <30000>;
             key-positions = <38 65 71>;
             bindings = <&macro_alt_bckspce>;
+            slow-release = true;
         };
     };
 
